@@ -13,4 +13,9 @@ for (let i = 1; i <= 100; i++) {
     if (eachNum.innerText % 3 === 0) {
         eachNum.innerText = "Fizz";
     }
+
+    //  Step 3: Change every 5th number to "Buzz"
+    if (eachNum.innerText % 5 === 0) {
+        eachNum.innerText = "Buzz";
+    }
 }
