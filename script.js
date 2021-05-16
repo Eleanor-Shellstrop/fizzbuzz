@@ -8,4 +8,9 @@ for (let i = 1; i <= 100; i++) {
     eachNum.classList = "num";
     eachNum.innerText = i;
     numList.appendChild(eachNum);
+    
+    //  Step 2: Change every 3rd number to "Fizz"
+    if (eachNum.innerText % 3 === 0) {
+        eachNum.innerText = "Fizz";
+    }
 }
