@@ -8,6 +8,11 @@ for (let i = 1; i <= 100; i++) {
     eachNum.classList = "num";
     eachNum.innerText = i;
     numList.appendChild(eachNum);
+
+    //  Step 4: Change every multiple of both 3 and 5 to "FizzBuzz"
+    if (eachNum.innerText % 15 === 0) {
+        eachNum.innerText = "FizzBuzz";
+    }
     
     //  Step 2: Change every 3rd number to "Fizz"
     if (eachNum.innerText % 3 === 0) {
