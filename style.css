@@ -28,5 +28,31 @@ li {
 }
 
 .num {
-    margin: 10px auto;
+    width: 30%;
+    margin: 0;
+    padding: 1em;
+    border: 1px solid cadetblue;
+    border-radius: 10px;
+}
+
+.fizz, 
+.buzz,
+.fizzbuzz {
+    width: 30%;
+    margin: 0;
+    padding: 1em;
+    border-radius: 10px;
+    color: white;
+}
+
+.fizz {
+    background-color: mediumturquoise;
+}
+
+.buzz {
+    background-color: lightcoral;
+}
+
+.fizzbuzz {
+    background-color: plum;
 }
